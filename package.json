@@ -10,14 +10,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:yaf.helloWorld"
+    "onCommand:yaf.foldAll"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "yaf.helloWorld",
-        "title": "Hello World"
+        "command": "yaf.foldAll",
+        "title": "YAF: Foll All"
       }
     ]
   },
