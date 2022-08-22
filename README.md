@@ -2,4 +2,4 @@
 
 ## Features
 
-- `yaf.foldAll`
+- `yafa.foldAll`

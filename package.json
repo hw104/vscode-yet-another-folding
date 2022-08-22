@@ -1,7 +1,7 @@
 {
-  "name": "yaf",
-  "displayName": "Yet Another Folding",
-  "description": "Yet Another Folding for me and my friends.",
+  "name": "yafa",
+  "displayName": "Yet Another Folding All",
+  "description": "YAFA: For me and my friends.",
   "version": "0.0.1",
   "license": "MIT",
   "publisher": "hw104",
@@ -16,14 +16,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:yaf.foldAll"
+    "onCommand:yafa.foldAll"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "yaf.foldAll",
-        "title": "YAF: Fold All"
+        "command": "yafa.foldAll",
+        "title": "YAFA: Fold All"
       }
     ]
   },
