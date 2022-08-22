@@ -17,7 +17,7 @@
     "commands": [
       {
         "command": "yaf.foldAll",
-        "title": "YAF: Foll All"
+        "title": "YAF: Fold All"
       }
     ]
   },
