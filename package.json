@@ -3,6 +3,11 @@
   "displayName": "Yet Another Folding",
   "description": "Yet Another Folding for me and my friends.",
   "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hw104/vscode-yet-another-folding.git"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -23,6 +28,8 @@
   },
   "scripts": {
     "vscode:prepublish": "yarn run compile",
+    "vs:package": "vsce package --yarn",
+    "vs:publish": "vsce publish --yarn",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "yarn run compile && yarn run lint",
@@ -30,16 +37,17 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.70.0",
     "@types/glob": "^7.2.0",
     "@types/mocha": "^9.1.1",
     "@types/node": "16.x",
+    "@types/vscode": "^1.70.0",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
+    "@vscode/test-electron": "^2.1.5",
     "eslint": "^8.20.0",
     "glob": "^8.0.3",
     "mocha": "^10.0.0",
     "typescript": "^4.7.4",
-    "@vscode/test-electron": "^2.1.5"
+    "vsce": "^2.10.2"
   }
 }
